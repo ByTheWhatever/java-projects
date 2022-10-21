@@ -6,8 +6,8 @@ public class Teste_medias_if_else {
 
 		double nota1 = 30;
 		double nota2 = 90;
-		double nota3 = 20;
-		double nota4 = 0;
+		double nota3 = 42;
+		double nota4 = 85;
 		double mediaFinal = 0;
 
 		mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
