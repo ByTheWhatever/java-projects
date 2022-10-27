@@ -12,9 +12,7 @@ import cursojava.constantes.StatusAluno;
 
 public class PrimeiraClasseJava {
 
-	/**
-	 * Método padrão que executa os programas escritos em Java
-	 */
+	
 	public static void main(String[] args) {
 		
 		String login = JOptionPane.showInputDialog("Informe o login:");
@@ -26,13 +24,10 @@ public class PrimeiraClasseJava {
 			
 			List<Aluno> alunos = new ArrayList<>();		
 			
-			// Estrutua de dados que representa os elementos por uma chave e um valor associado à chave
 			HashMap<String, List<Aluno>> maps = new HashMap<>();
 			
 			for(int qtd = 1; qtd <= 5; qtd ++) {
 				
-				// new Aluno() é uma instância da classe Aluno (criação do objeto)
-				// aluno1 é uma referência para o objeto
 				
 				// Entrada de dados com o teclado (Dados do aluno)
 				String nome = JOptionPane.showInputDialog("Digite o nome do aluno " + qtd + " :");
